@@ -1,7 +1,7 @@
 from scholarship_checker import is_eligible_for_scholarship
 
 
-def test_eligible_senior():
+def test_eligible_for_scholarship():
     assert is_eligible_for_scholarship(3.50, 20000) is True
     assert is_eligible_for_scholarship(3.25, 19000) is True
     assert is_eligible_for_scholarship(3.00, 18000) is True
