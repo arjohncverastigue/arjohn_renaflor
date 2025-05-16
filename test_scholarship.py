@@ -16,7 +16,7 @@ def test_eligible_senior():
 
 
 def test_not_eligible_due_to_GPA():
-    assert is_eligible_for_scholarship(3.75, 0) is False
+    assert is_eligible_for_scholarship(3.75, 24000) is False
     assert is_eligible_for_scholarship(4.0, 21000) is False
     assert is_eligible_for_scholarship(4.75, 22000) is False
     assert is_eligible_for_scholarship(5.0, 23000) is False
