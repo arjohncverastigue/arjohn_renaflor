@@ -20,3 +20,4 @@ def test_not_eligible_due_to_GPA():
     assert is_eligible_for_scholarship(4.0) is False
     assert is_eligible_for_scholarship(4.75) is False
     assert is_eligible_for_scholarship(5.0) is False
+    
